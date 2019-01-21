@@ -22,4 +22,11 @@ function dec(n) {
   return n--;
 }
 
-function 
+function makeInt(n) {
+  return parseInt(n);
+}
+
+function parseDecimal(n) {
+  return parseFloat(n);
+}
+
